@@ -1,0 +1,150 @@
+@import url("@nimbus-ds/tokens/dist/css/variables.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+@font-face {
+  font-family: "Geist Sans";
+  src: url("/fonts/Geist-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Geist Sans";
+  src: url("/fonts/Geist-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Geist Sans";
+  src: url("/fonts/Geist-Bold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+:root {
+  --background: var(--color-light-neutral-background);
+  --foreground: var(--color-light-neutral-text-high);
+  --surface-disabled: var(--color-light-neutral-surface-disabled);
+}
+
+@media (prefers-color-scheme: dark) {
+  [class^="nimbus-theme-dark"],
+  [class^="nimbus-theme-nextDark"] {
+    --background: var(--color-dark-neutral-background);
+    --foreground: var(--color-dark-neutral-text-high);
+    --surface-disabled: var(--color-dark-neutral-surface-disabled);
+  }
+}
+
+html.inter * {
+  font-family: "Inter", sans-serif !important;
+}
+
+html.geist * {
+  font-family: "Geist Sans", sans-serif !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+.link-reset {
+  text-decoration: none;
+  width: 100%;
+}
+
+[data-style="button-override"] {
+  padding-left: var(--spacing-2) !important;
+  padding-right: var(--spacing-2) !important;
+}
+
+[data-style="menu-override"] > :first-child {
+  border-color: var(--surface-disabled);
+}
+
+[data-style="icon-button-override"] {
+  border-radius: var(--shape-border-radius-2) !important;
+}
+
+[data-style="page-override"] {
+  padding-left: var(--spacing-4) !important;
+  padding-right: var(--spacing-4) !important;
+}
+
+[class^="nimbus-tag"] {
+  padding: 0 var(--spacing-1) !important;
+  height: unset !important;
+}
+
+/* // Spotlight effect for Next plan */
+
+.spotlight {
+  height: 100%;
+  width: 100%;
+}
+
+.spotlight-bg {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+}
+
+@media (min-width: 1024px) {
+  .spotlight-bg::before,
+  .spotlight-bg::after {
+    content: "";
+    position: absolute;
+    filter: blur(100px);
+    opacity: 0;
+    border-radius: 100%;
+    transition: opacity 0.5s ease-in-out;
+    transform: translateX(var(--mouse-x)) translateY(var(--mouse-y));
+    pointer-events: none;
+    mix-blend-mode: multiply;
+  }
+
+  .spotlight-bg::before {
+    width: 20rem;
+    height: 20rem;
+    top: -10rem;
+    left: -10rem;
+    background-color: var(--color-next-primary-surface);
+    z-index: 10;
+  }
+
+  .spotlight-bg:hover::before {
+    opacity: 0.35;
+  }
+
+  .spotlight-bg:hover::after {
+    opacity: 0.15;
+  }
+
+  .spotlight-bg::after {
+    width: 24rem;
+    height: 24rem;
+    top: -12rem;
+    left: -12rem;
+    background-color: var(--color-next-primary-surface-highlight);
+    z-index: 11;
+  }
+
+  .spotlight-border {
+    border-right: 1px solid var(--color-next-primary-interactive);
+    pointer-events: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    width: calc(100% - 1px);
+    height: 100%;
+    cursor: default;
+    background-color: transparent;
+    transition: opacity 0.5s ease-in-out;
+  }
+}

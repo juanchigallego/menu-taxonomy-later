@@ -1,0 +1,11 @@
+{
+  "card-title": "Editar datos de la tienda",
+  "store-name": "Nombre de la tienda",
+  "store-email": "Email de la cuenta",
+  "change-language": "Cambiar idioma",
+  "change-font": "Cambiar tipografía",
+  "show-logo": "Mostrar logo de la tienda",
+  "plan-next": "Activar plan Evolución",
+  "dark-mode": "Activar dark mode",
+  "reset": "Restablecer"
+}

@@ -1,0 +1,31 @@
+{
+  "subtitle": "Envíale a cada contacto lo que desea recibir con",
+  "primary-action": "Instalar gratis",
+  "card": {
+    "contacts": {
+      "title": "Captá contactos",
+      "content": "Importa tus contactos de forma sencilla. Genera listas de calidad con formularios.¡Segmenta según sus intereses y comportamiento de compras!",
+      "link": "Ver listas"
+    },
+    "designs": {
+      "title": "Creá diseños",
+      "content": "Genera contenidos atractivos con nuestra galería pública de diseños utilizando fuentes personalizadas, inteligencia artificial y ¡mucho más!",
+      "link": "Ver diseños"
+    },
+    "campaigns": {
+      "title": "Enviá campañas",
+      "content": " emails personalizados segmentando por listas e intereses.¡Obtén los mejores resultados!",
+      "link": "Ver campañas"
+    },
+    "automations": {
+      "title": "Configurá automatizaciones",
+      "content": "Envía el mensaje correcto en el momento adecuado, automáticamente.¡Ahorra tiempo y esfuerzo!",
+      "link": "Ver automatizaciones"
+    },
+    "reports": {
+      "title": "Analizá reportes",
+      "content": "Conoce la actividad de tus contactos y descubre el impacto de las campañas.¡Mejora tus resultados con cada envío.",
+      "link": "Ver reportes"
+    }
+  }
+}

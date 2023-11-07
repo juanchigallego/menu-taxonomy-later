@@ -1,0 +1,107 @@
+{
+  "sidebar": {
+    "home": "Inicio",
+    "stats": "Estadísticas",
+    "stats-payments": "Pagos",
+    "stats-shipments": "Envíos",
+    "stats-sources": "Fuentes de tráfico",
+    "manage-title": "Gestión",
+    "orders": "Ventas",
+    "orders-manual-orders": "Órdenes de compra",
+    "products": "Productos",
+    "products-categories": "Categorías",
+    "pago-nube": "Pago Nube",
+    "pago-nube-link": "Link de pago",
+    "envio-nube": "Envío Nube",
+    "envio-nube-tags": "Etiquetas",
+    "customers": "Clientes",
+    "customers-messages": "Mensajes",
+    "promotions": "Promociones",
+    "promotions-coupons": "Cupones",
+    "promotions-free-shipping": "Envíos gratis",
+    "promotions-apps": "Aplicaciones destacadas",
+    "marketing": "Marketing",
+    "sales-channels-title": "Canales de venta",
+    "online-store": "Tienda online",
+    "online-store-design": "Diseño",
+    "online-store-pages": "Páginas",
+    "online-store-menus": "Menúes",
+    "online-store-filters": "Filtros",
+    "online-store-preferences": "Preferencias",
+    "pos": "Punto de venta",
+    "nube": "Nube",
+    "social-media": "Redes sociales",
+    "social-media-fb": "Facebook/Meta",
+    "social-media-ig": "Instagram Shopping",
+    "social-media-ml": "Mercado Libre",
+    "social-media-g": "Google Shopping",
+    "other-channels": "Más canales de venta",
+    "other-channels-app1": "App sales channel 1",
+    "apps-title": "Aplicaciones",
+    "apps-list": "Lista de aplicaciones",
+    "pinterest": "Pinterest",
+    "pinterest-page1": "Título de la página",
+    "pinterest-page2": "Otra página",
+    "noovfiscal": "Noovfiscal",
+    "b2b": "Recursos B2B"
+  },
+  "configuration": {
+    "title": "Configuración",
+    "payment-shipping-title": "Pagos y envíos",
+    "shipping-methods": "Formas de entrega",
+    "distribution-centers": "Centros de distribución",
+    "payment-methods": "Medios de pago",
+    "communication-title": "Comunicación",
+    "emails": "Emails",
+    "whatsapp": "WhatsApp",
+    "generals-title": "Generales",
+    "languages": "Idiomas y monedas",
+    "metafields": "Campos personalizados"
+  },
+  "account": {
+    "title": "Mi cuenta",
+    "suscriptions": "Suscripciones",
+    "payments": "Pagos",
+    "invoices": "Comprobantes",
+    "security-title": "Seguridad",
+    "2fa": "Verificación en 2 pasos",
+    "user-roles": "Permisos para usuarios",
+    "profile-title": "Perfil",
+    "profile": "Datos de mi negocio",
+    "other-stores-title": "Otras tiendas",
+    "other-stores": "Tiendas vinculadas",
+    "logout": "Cerrar sesión"
+  },
+  "common": {
+    "tag-new": "Nuevo"
+  },
+  "preferences": {
+    "card": {
+      "domains": {
+        "title": "Dominios",
+        "content": "Agregá un dominio personalizado para tu Tienda online.",
+        "button": "Configurar"
+      },
+      "under-construction": {
+        "title": "Página en construcción",
+        "content": "Configurá un mensaje para mostrar mientras esté actualizando la tienda.",
+        "button": "Configurar"
+      },
+      "checkout-options": {
+        "title": "Opciones del checkout",
+        "content": "Configurá opciones para solicitar información a tu comprador durante la compra.",
+        "button": "Configurar"
+      },
+      "external-codes": {
+        "title": "Códigos externos",
+        "content": "Agregá códigos de integraciones a tu tienda.",
+        "button": "Configurar"
+      },
+      "301": {
+        "title": "Redireccionamientos 301",
+        "content": "Actualizá URLs que ya no estén funcionando y redireccionalas hacia URLs nuevas",
+        "button": "Configurar"
+      }
+    }
+  }
+}

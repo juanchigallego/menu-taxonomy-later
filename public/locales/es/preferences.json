@@ -1,0 +1,29 @@
+{
+  "card": {
+    "domains": {
+      "title": "Dominios",
+      "content": "Agregá un dominio personalizado para tu Tienda online.",
+      "button": "Configurar"
+    },
+    "under-construction": {
+      "title": "Página en construcción",
+      "content": "Configurá un mensaje para mostrar mientras esté actualizando la tienda.",
+      "button": "Configurar"
+    },
+    "checkout-options": {
+      "title": "Opciones del checkout",
+      "content": "Configurá opciones para solicitar información a tu comprador durante la compra.",
+      "button": "Configurar"
+    },
+    "external-codes": {
+      "title": "Códigos externos",
+      "content": "Agregá códigos de integraciones a tu tienda.",
+      "button": "Configurar"
+    },
+    "301": {
+      "title": "Redireccionamientos 301",
+      "content": "Actualizá URLs que ya no estén funcionando y redireccionalas hacia URLs nuevas",
+      "button": "Configurar"
+    }
+  }
+}

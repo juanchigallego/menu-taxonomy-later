@@ -1,0 +1,21 @@
+{
+  "popovers": {
+    "enp": {
+      "title": "Novedades sobre Ecommerce na Prática",
+      "content": "Acá vamos a encontrar novedades sobre cursos y contenidos."
+    },
+    "news": {
+      "title": "Novedades sobre Tiendanube",
+      "content": "Acá vamos a encontrar novedades sobre la plataforma."
+    },
+    "support": {
+      "title": "Ayuda",
+      "content": "Acá vamos a encontrar las opciones de ayuda y soporte."
+    }
+  },
+  "page": {
+    "secondary-action": "Secundaria",
+    "primary-action": "Primaria",
+    "content-placeholder": "Este es el contenido para la página de"
+  }
+}

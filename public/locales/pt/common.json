@@ -1,0 +1,21 @@
+{
+  "popovers": {
+    "enp": {
+      "title": "Novidades sobre Ecommerce na Prática",
+      "content": "Aqui encontraremos novidades sobre cursos e conteúdos."
+    },
+    "news": {
+      "title": "Novidades sobre Nuvemshop",
+      "content": "Aqui encontraremos novidades sobre a plataforma."
+    },
+    "support": {
+      "title": "Ajuda",
+      "content": "Aqui encontraremos opções de ajuda e suporte."
+    }
+  },
+  "page": {
+    "secondary-action": "Secundária",
+    "primary-action": "Primária",
+    "content-placeholder": "Esse o conteúdo para a tela de"
+  }
+}
